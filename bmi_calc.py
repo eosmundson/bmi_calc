@@ -10,7 +10,7 @@ def main():
     print(f"\nYour BMI is {bmi:.1f}")
     
     bfp = calc_body_fat(age, bmi, sex)
-    print(f"\nYour body fat percentage is {bfp:.1f}")
+    print(f"\nYour body fat percentage is {bfp:.1f}%")
     
     
 def calc_bmi(weight, height):
